@@ -185,3 +185,14 @@ footer nav a {
 #b10{  
       background-color: dodgerblue; 
 }
+section{
+text-align: center;  
+padding-bottom: 2rem; 
+width: 60%; 
+margin-left: 17%; 
+border-bottom: 2px dashed black; 
+}
+h1{
+    margin-left: 16rem;  
+    padding-top: 2rem; 
+}
