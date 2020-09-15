@@ -210,21 +210,31 @@ footer nav a {
 .learn{
     border-bottom: 1px dashed black; 
     padding-bottom: 2rem; 
+    display: flex; 
+    justify-content: space-evenly; 
 }
 .learn a{
     text-decoration: none; 
     color: black; 
     border: 2px solid black; 
-    border-radius: 30px; 
+    border-radius: 20px; 
+    width: 130px; 
+    text-align: center; 
+    line-height: 3rem; 
 }
 .image-container-top{
     display: flex; 
     justify-content: space-evenly;
-    padding-bottom: 2rem;  
+    padding-bottom: 1rem;  
 }
 .header-container1{
-    display: flex; 
-    justify-content: space-evenly; 
+    display: flex;
+}
+#strategy{
+    padding-left: 11rem;
+}
+#work{
+    padding-left: 30rem; 
 }
 .paragraph-container{
     display: flex; 
@@ -234,6 +244,7 @@ footer nav a {
 .image-container-bottom{
     display: flex; 
     justify-content: space-evenly;
+    padding-bottom: 1rem; 
 }
 .header-container-bottom{
     display: flex; 
@@ -241,4 +252,14 @@ footer nav a {
 }
 #together{
     padding-top: 2rem; 
+}
+.header-container-bottom{
+    display: flex; 
+    justify-content: space-around; 
+}
+#collaboration{
+    padding-right: 17rem; 
+}
+#places{
+    padding-right: 6rem; 
 }
