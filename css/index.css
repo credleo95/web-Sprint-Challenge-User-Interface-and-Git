@@ -145,6 +145,8 @@ footer nav a {
     text-decoration: none;
 }
 .nav{
+    display: flex; 
+    align-items: flex-end;
     text-decoration: none; 
     color: black; 
 }
@@ -153,6 +155,7 @@ footer nav a {
     justify-content: space-between; 
     padding-bottom: 2rem; 
 }
+
 #b1{
     background-color: teal; 
 }
@@ -185,14 +188,57 @@ footer nav a {
 #b10{  
       background-color: dodgerblue; 
 }
-section{
-text-align: center;  
-padding-bottom: 2rem; 
-width: 60%; 
-margin-left: 17%; 
-border-bottom: 2px dashed black; 
+.jumbo{
+    padding-bottom: 2rem; 
 }
-h1{
-    margin-left: 16rem;  
+.jumbo-about{
+    padding-bottom: 2rem; 
+    display: flex; 
+    justify-content: center; 
+    width: 100%;
+}
+#about1{
+    padding-left: 16rem; 
+}
+.agile{
+ display: flex; 
+ align-items: baseline; 
+ padding-left: 16rem; 
+ padding-bottom: 2rem; 
+ border-bottom: 1px dashed black; 
+}
+.learn{
+    border-bottom: 1px dashed black; 
+    padding-bottom: 2rem; 
+}
+.learn a{
+    text-decoration: none; 
+    color: black; 
+    border: 2px solid black; 
+    border-radius: 30px; 
+}
+.image-container-top{
+    display: flex; 
+    justify-content: space-evenly;
+    padding-bottom: 2rem;  
+}
+.header-container1{
+    display: flex; 
+    justify-content: space-evenly; 
+}
+.paragraph-container{
+    display: flex; 
+    justify-content: space-evenly; 
+    padding-bottom: 2rem; 
+}
+.image-container-bottom{
+    display: flex; 
+    justify-content: space-evenly;
+}
+.header-container-bottom{
+    display: flex; 
+    justify-content: space-evenly; 
+}
+#together{
     padding-top: 2rem; 
 }

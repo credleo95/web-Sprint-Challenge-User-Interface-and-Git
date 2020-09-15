@@ -75,7 +75,7 @@ Your finished project must include all of the following requirements:
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
 * [ ] box1: `teal`
-* [ ] box2: `gold`
+* [ ] box2: `gold`  
 * [ ] box3: `cadetblue`
 * [ ] box4: `coral`
 * [ ] box5: `crimson`
@@ -84,7 +84,6 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box8: `hotpink`
 * [ ] box9: `indigo`
 * [ ] box10: `dodgerblue`
-
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
