@@ -245,6 +245,7 @@ footer nav a {
     display: flex; 
     justify-content: space-evenly;
     padding-bottom: 1rem; 
+    padding-top: 2rem; 
 }
 .header-container-bottom{
     display: flex; 
