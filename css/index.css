@@ -210,9 +210,10 @@ footer nav a {
 .learn{
     border-bottom: 1px dashed black; 
     padding-bottom: 2rem; 
-    display: flex; 
-    justify-content: space-evenly; 
+    display: flex;
+    justify-content: space-around; 
 }
+
 .learn a{
     text-decoration: none; 
     color: black; 
@@ -238,8 +239,10 @@ footer nav a {
 }
 .paragraph-container{
     display: flex; 
-    justify-content: space-evenly; 
     padding-bottom: 2rem; 
+    padding: 0 8rem 0 4rem; 
+    margin: 0 12%;
+
 }
 .image-container-bottom{
     display: flex; 
@@ -263,4 +266,18 @@ footer nav a {
 }
 #places{
     padding-right: 6rem; 
+}
+#strategyp{
+    padding-right: 30%; 
+    text-align: left;
+    position: relative; 
+    left: -3rem;  
+}
+#placesp{
+    position: relative; 
+    left: -3rem; 
+}
+#collaborationp{
+    position: relative; 
+    left: 7.5rem; 
 }
