@@ -188,3 +188,32 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* code below intended specifically for about page */
+
+.about-section{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.about-section p{
+    margin-bottom: 1.5rem; 
+}
+.strategy,.how-we-work,.places-we-work,.collaboration{
+    width: 50%; 
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.top-flex-container{
+display: flex; 
+}
+.bottom-flex-container{
+    display: flex; 
+}
+button,p{
+    margin-bottom: 2rem;
+}
+button{
+    border-radius: 10px;
+    width: 140px; 
+    height: 40px; 
+    background-color: white; 
+}
