@@ -200,8 +200,15 @@ footer nav a {
 .strategy,.how-we-work,.places-we-work,.collaboration{
     width: 50%; 
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    
 }
+hr{
+    display: block; 
+    width: 95%; 
+    border-bottom: 1px dashed black;
+    margin-right: 2rem; 
+}
+
 .top-flex-container{
 display: flex; 
 }
@@ -216,4 +223,7 @@ button{
     width: 140px; 
     height: 40px; 
     background-color: white; 
+}
+section h2{
+    margin-top: 1rem; 
 }
